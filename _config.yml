@@ -22,7 +22,7 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-
+baidu_analysis: a0736c4beebc457c0960e4e4820d4d11
+revolvermaps: 5foh6bwbk5q
 
 theme: jekyll-theme-cayman
