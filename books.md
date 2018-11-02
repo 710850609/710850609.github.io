@@ -8,8 +8,17 @@ permalink: /books/
 {:toc}
 
 
-2018书单
------------------------------------------------------------------
+2018年书单
+=================================================================
 
-+ 《人人都是产品经理》
-+ 
+#### 编码规范
+
++ 《<a href="https://pan.baidu.com/s/1DgVZ4iE2ogNYSzHmvts65g" target="_blank">阿里巴巴Java开发手册</a>》
++ 《<a href="https://pan.baidu.com/s/1dNpQTn8TpBKshilNTHhA5A" target="_blank">Google编码规范</a>》
+
+
+
+#### 产品设计
+
+- 《人人都是产品经理》
+
