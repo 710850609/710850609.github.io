@@ -8,40 +8,57 @@ permalink: /tools/
 {:toc}
 
 
-# 开发
-## 一、IDE**
 
-## **文本编辑**
-1. nopad++
-2. Sublime
 
-- **java开发**
-1. Eclipse
-2. IDEA（收费）
+# 一. 开发
 
-- **前端开发**
-1. Webstorm（收费）
+## 1. 文本编辑
 
-- **Markdown编辑**
-1. Typora
+### a. nodepad++
+### b. Sublime
 
-- **文件比较**
-1. [BeyondCompare](http://www.beyondcompare.cc)（收费）
 
-# 办公
-- **任务管理**
-1. [Process Explorer](http://www.sysinternals.com/)
+## 2. java开发
 
-- **文件查找**
-1. everything
+### a. Eclipse
+### b.IDEA（收费）
+
+
+## 3. 前端开发
+
+### a. Webstorm（收费）
+### b. VSCode
+
+
+## 4. Markdown编辑
+
+### a. Typora
+
+
+## 5. 文件比较
+
+### a. <a href="http://www.beyondcompare.cc">BeyondCompare</a>（收费）
+
+
+
+# 二. 办公
+
+## 1. 任务管理
+
+### a. <a href="http://www.sysinternals.com/">Process Explorer</a>
+
+## 2. 资源管理
+
+### a. everything
     快速查找文件
 
-2. Listary
+### b. Listary
     系统启动器，可自定义可用于替换everything
 
-- **思维导图**
-1. XMind
+### c. Clover
+    窗口合并，像浏览器一样，由多个标签页的样式来显示多个资源管理器
 
-- **资源管理器**
-1. Clover
-  窗口合并，像浏览器一样，由多个标签页的样式来显示多个资源管理器
+
+## 3. 思维导图
+###1. XMind
+
