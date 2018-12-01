@@ -45,7 +45,7 @@ permalink: /tools/
 
 ## 1. 任务管理
 
-### a. <a href="http://www.sysinternals.com/" target="_blank">Process Explorer</a>
+### a. <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer" target="_blank">Process Explorer</a>
 
 ## 2. 资源管理
 
