@@ -37,7 +37,7 @@ permalink: /tools/
 
 ## 5. 文件比较
 
-### a. <a href="http://www.beyondcompare.cc">BeyondCompare</a>（收费）
+### a. <a href="http://www.beyondcompare.cc" target="_blank">BeyondCompare</a>（收费）
 
 
 
@@ -45,7 +45,7 @@ permalink: /tools/
 
 ## 1. 任务管理
 
-### a. <a href="http://www.sysinternals.com/">Process Explorer</a>
+### a. <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer" target="_blank">Process Explorer</a>
 
 ## 2. 资源管理
 
@@ -56,9 +56,9 @@ permalink: /tools/
     系统启动器，可自定义可用于替换everything
 
 ### c. Clover
-    窗口合并，像浏览器一样，由多个标签页的样式来显示多个资源管理器
+    窗口合并，像浏览器一样，由多个标签页的样式来显示多个资源管理器窗口
 
 
 ## 3. 思维导图
-###1. XMind
+### a. XMind
 
