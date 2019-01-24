@@ -135,7 +135,7 @@ submitLogin()
 - 2、每执行到```await```时，程序会暂停等待到```await```返回值，再往下执行
 - 3、```await```必选再```async```修饰的方法中使用。在普通方法使用会报错
 - 4、```await```修饰的Promise方法可能返回的是```rejected```，最好放在```try-catch```代码块中
-- 
+
 ##### 2.3.2、代码
 ```javascript
 function login(params) {
@@ -172,6 +172,7 @@ async function submitLogin () {
 
 submitLogin()
 ```
+
 ##### 2.3.3、执行结果
 登陆成功输出
 ```javascript
@@ -183,6 +184,7 @@ submitLogin()
 登陆失败
 登陆信息有误: 密码错误
 ```
+
 ##### 2.3.4、代码问题
 相比前面两种实现，没有了可能出现嵌套回调函数的问题，代码可读性好。
 暂时还没发现其他缺点
