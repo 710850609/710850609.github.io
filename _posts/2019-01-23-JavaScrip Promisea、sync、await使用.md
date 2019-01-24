@@ -31,15 +31,18 @@ function login(params) {
 	let pwd = params.pwd
 	let success = params.success
 	let fail = params.fail
-	// 使用随机数模拟成功失败
-	let res = Math.random() * 2
-	if (res < 1) {
-		console.log('登陆成功')
-		success(name)
-	} else {
-		console.log('登陆失败')
-		fail('密码错误')
-	}
+	// 使用定时器，模拟登陆请求耗时
+	setTimeout(() => {
+		// 使用随机数模拟成功失败
+		let res = Math.random() * 2
+		if (res < 1) {
+			console.log('登陆成功')
+			success(name)
+		} else {
+			console.log('登陆失败')
+			fail()
+		}
+	}, 1000)	
 }
 
 var params = {
@@ -79,6 +82,7 @@ function login(params) {
 	let name = params.name
 	let pwd = params.pwd
 	let promise = new Promise((resolve, rejected) => {
+		// 使用定时器，模拟登陆请求耗时
 		setTimeout(() => {
 			// 使用随机数模拟成功失败
 			let res = Math.random() * 2
@@ -142,6 +146,7 @@ function login(params) {
 	let name = params.name
 	let pwd = params.pwd
 	let promise = new Promise((resolve, rejected) => {
+		// 使用定时器，模拟登陆请求耗时
 		setTimeout(() => {
 			// 使用随机数模拟成功失败
 			let res = Math.random() * 2
