@@ -26,7 +26,7 @@ tag: Docker
 ```bash
 sudo apt update
 sudo apt install docker.io
-sudo usermod -aG docker
+sudo usermod -aG docker $USER
 ```
 
 ### 2、以管理员运行WSL控制台，执行下面脚本
