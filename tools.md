@@ -34,11 +34,15 @@ permalink: /tools/
 
 ### a. Typora
 
-
 ## 5. 文件比较
 
 ### a. <a href="http://www.beyondcompare.cc" target="_blank">BeyondCompare</a>（收费）
 
+
+## 6. 命令终端
+
+### a. <a href="https://github.com/Eugeny/terminus/releases" target="_blank">terminus</a>
+### b. <a href="https://github.com/felixse/FluentTerminal/releases" target="_blank">Fluent Terminal</a>
 
 
 # 二. 办公
