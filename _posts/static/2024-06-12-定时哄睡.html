@@ -85,7 +85,7 @@
     function startCountDown() {
         startPlayTime = new Date().getTime();
         let countdownHour = document.querySelector("#countdown").value;
-        endTime = startPlayTime + (countdownHour  * 1000);
+        endTime = startPlayTime + (countdownHour * 60 * 60 * 1000);
         audio.play().catch(e => {
             console.error(`自动播放失败，需要手动点击播放，原因：${e}`);
         });
