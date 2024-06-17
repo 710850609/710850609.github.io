@@ -60,6 +60,7 @@
     let audio = document.querySelector('audio');
 
     let animationId = null;
+    let checkTask = null;
     let startPlayTime = null;
     let endTime = null;
 
@@ -79,21 +80,22 @@
             stopCountDown();
             return;
         }
-        animationId = requestAnimationFrame(checkCountDown);
-
+        // animationId = requestAnimationFrame(checkCountDown);
     }
     function startCountDown() {
         startPlayTime = new Date().getTime();
         let countdownHour = document.querySelector("#countdown").value;
-        endTime = startPlayTime + (countdownHour * 60 * 60 * 1000);
+        endTime = startPlayTime + (countdownHour  * 1000);
         audio.play().catch(e => {
             console.error(`自动播放失败，需要手动点击播放，原因：${e}`);
         });
-        checkCountDown();
+        // checkCountDown();
+        checkTask = setInterval(() => checkCountDown(), 1000);
         ctrlBtn.innerHTML = "停止";
     }
     function stopCountDown() {
-        cancelAnimationFrame(animationId);
+        // cancelAnimationFrame(animationId);
+        clearInterval(checkTask);
         audio.pause();
         ctrlBtn.innerHTML = "重新开始";
     }
@@ -103,7 +105,7 @@
         } else {
             startCountDown();
         }
-    };
+    }
 </script>
 
 </html>
