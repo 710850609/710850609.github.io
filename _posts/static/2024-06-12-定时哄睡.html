@@ -29,7 +29,7 @@
             <option value="7">7小时</option>
             <option value="8">8小时</option>
         </select>
-        <label>后关闭弟子规</label>
+        <label>后关闭播放</label>
         <button id="ctrlBtn" type="button">开始</button>
     </div>
     <div>
@@ -55,8 +55,8 @@
     <div>
         <span class="audio-tag">嘘嘘声</span>
         <audio autoplay controls loop>
-            <!-- <source src="https://raw.kkgithub.com/710850609/710850609.github.io/master/_posts/static/%E5%98%98%E5%98%98%E5%A3%B0.acc" type="audio/mpeg" /> -->
-            <source src="https://github.com/710850609/710850609.github.io/raw/master/_posts/static/%E5%98%98%E5%98%98%E5%A3%B0.aac" type="audio/mpeg" />
+            <source src="https://raw.kkgithub.com/710850609/710850609.github.io/master/_posts/static/%E5%98%98%E5%98%98%E5%A3%B0.acc" type="audio/mpeg" />
+            <!-- <source src="https://github.com/710850609/710850609.github.io/raw/master/_posts/static/%E5%98%98%E5%98%98%E5%A3%B0.aac" type="audio/mpeg" /> -->
         </audio>
     </div>
 </body>
@@ -93,9 +93,9 @@
         startPlayTime = new Date().getTime();
         let countdownHour = document.querySelector("#countdown").value;
         endTime = startPlayTime + (countdownHour * 60 * 60 * 1000);
-        audio.play().catch(e => {
-            console.error(`自动播放失败，需要手动点击播放，原因：${e}`);
-        });
+        // audio.play().catch(e => {
+            // console.error(`自动播放失败，需要手动点击播放，原因：${e}`);
+        // });
         // checkCountDown();
         checkTask = setInterval(() => checkCountDown(), 1000);
         ctrlBtn.innerHTML = "停止";
@@ -103,7 +103,7 @@
     function stopCountDown() {
         // cancelAnimationFrame(animationId);
         clearInterval(checkTask);
-        audio.pause();
+        document.querySelectorAll('audio').forEach(e => e.pause());
         ctrlBtn.innerHTML = "重新开始";
     }
     ctrlBtn.onclick = () => {
