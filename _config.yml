@@ -16,6 +16,7 @@ permalink: /:categories/:year/:month/:day/:title/
 #permalink: /:year/:month/:day/:title/
 paginate: 10
 gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
